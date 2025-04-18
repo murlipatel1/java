@@ -19,6 +19,7 @@ class MultipleCatchDemo {
             System.out.println(arr[5]); // ArrayIndexOutOfBoundsException
 
             int a = 5 / 0; // ArithmeticException (won't reach here)
+            System.out.println("Result: " + a);
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Array index issue: " + e);
         } catch (ArithmeticException e) {

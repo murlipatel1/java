@@ -28,6 +28,7 @@ class ExceptionPropagation {
 
     static void level1() {
         int result = 10 / 0; // ArithmeticException
+        System.out.println("Result: " + result); // This line will not execute
     }
 
     static void level2() {
