@@ -82,8 +82,8 @@ java ClassName
 ```
 For example, to run the `OOPConceptsDemo.java`:
 ```
-javac d:\00000 latest trend + prep + cloud + llm\full java\01_java_core\OOPConceptsDemo.java
-java -cp d:\00000 latest trend + prep + cloud + llm\full java OOPConceptsDemo
+javac java\01_java_core\OOPConceptsDemo.java
+java -cp java OOPConceptsDemo
 ```
 
 Alternatively, you can open the project in Visual Studio Code and use its integrated terminal and run/debug features.
